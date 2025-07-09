@@ -10,4 +10,4 @@ function myMnemonic(a, b, c, d){
     // return a[0]+second[0]+third[0]+forth[0]
 }
 // console.log(myMnemonic('Must', 'Accept', 'Sugar', 'Happiness'));
-console.log(myMnemonic('We', 'Eat', 'Eggs'));
+console.log(myMnemonic(0, 'Eat', 'Eggs'));
