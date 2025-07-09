@@ -25,9 +25,7 @@ function isTruthy(a){
     else if(a===""){
         return "The empty string is falsey (the only falsey string)";
     }
-    else if(a===""){
-        return "The empty string is falsey (the only falsey string)";
-    }
+
     else if(a===undefined){
         return "undefined is falsey";
     }
