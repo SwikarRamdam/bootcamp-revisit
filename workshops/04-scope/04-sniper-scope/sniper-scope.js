@@ -20,7 +20,7 @@ function goldFinger(bond) {
 
 function scaramanga(target) {
 
-  target = bond;
+  // target = bond;
 
   let AgentinScope = (bond === '007')
   let prediction = true; // because bond is accessible globally, by equating target with bond we made it local? so 

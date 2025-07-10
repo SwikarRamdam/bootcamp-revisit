@@ -33,11 +33,11 @@ function testThree(testThreeMessage) {
     testThreeMessage = 'test succeeding';
   }
 
-  let msg = getMessage();
+  let msg = getMessage(1);
   return msg;
 
   function getMessage(value) {
-    if (!value) {
+    if (value) {
       return testThreeMessage;
     }
 
