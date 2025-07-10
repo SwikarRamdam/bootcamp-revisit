@@ -38,3 +38,15 @@ let animalNoises = [
 ];
 
 // YOUR CODE BELOW
+function petSounds(aName, cName){
+  for(let i = 0; i<animalNoises.length; i++){
+    if(animalNoises[i][aName]){
+      let sound = animalNoises[i][aName][cName]
+      aName = aName[0].toUpperCase() + aName.slice(1);
+      
+      return `${aName}s in ${cName} say ${sound}`
+    }
+  }
+}
+console.log(petSounds('cat', 'Korea'));
+console.log(petSounds('dog', 'Iceland'));

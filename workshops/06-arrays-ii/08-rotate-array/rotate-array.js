@@ -11,8 +11,8 @@ function rotateArray(originalArray, rotateNum){ //[1,2,3,4,5],2
 }
 
 
-console.log(rotateArray([1, 2, 3, 4, 5], 1)) // => [5, 1, 2, 3, 4]) [2,3,4,5,1]
-console.log(rotateArray([1, 2, 3, 4, 5], -1)) // => [2, 3, 4, 5, 1]
+console.log(rotateArray([1,2,3,4,5],2))
+// console.log(rotateArray([1, 2, 3, 4, 5], -1)) // => [2, 3, 4, 5, 1]
 
 
 // function rotateArray(originalArray, rotateNum) {
